@@ -2,6 +2,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.PriorityQueue;
 
+//Time Complexity: O(S+ T)
+//Space Complexity: O(S + T)
 public class problem1 {
     public String minWindow(String s, String t) {
         if (s.length()< t.length()){
